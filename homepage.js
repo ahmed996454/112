@@ -30,7 +30,7 @@ const firebaseConfig = {
                 document.getElementById('loggedUserFName').innerText=userData.firstName;
                 document.getElementById('loggedUserEmail').innerText=userData.email;
                 document.getElementById('loggedUserLName').innerText=userData.lastName;
-                document.getElementById('loggedUserWork').innerText=userData.Work;
+                document.getElementById('loggedUserWork').innerText=userData.work;
 
             }
             else{
